@@ -13,7 +13,7 @@
 - wget -O install-nethunter-termux https://offs.ec/2MceZWr
 - chmod +x install-nethunter-termux
 - Choose 1 if you dont nethunter zip file 
-- or download in 
+- or download in https://www.mediafire.com/file/such20jm22rh257/nethunter-2023.2-generic-arm64-kalifs-full.zip/file
 6. Nethunter 
 - to open type - $ nh
 - set up Kex passwd - $ nethunter kex passwd
