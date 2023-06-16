@@ -62,4 +62,14 @@ means the computer can interact with  Android devices using the ADB shell.
 - adb shell settings put global settings_enable_monitor_phantom_procs false
 4. Also Recommended
 - Disable Battery Restriction in Termux 
-      
+
+# Chromium in Termux Nethunter
+1. Open Nethunter
+2. nano /etc/apt/sources.list
+3. apt update
+4. sudo su
+5. apt install chromium chromium-l10n -y
+6. nano /usr/share/applications/chromium.desktop
+7. locate the line "Exec=/usr/bin/chromium &U"
+8. delete the &U and paste --no-sandbox
+9. Open VNC kex and start uisng chromium
